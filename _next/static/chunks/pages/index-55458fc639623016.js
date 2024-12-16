@@ -600,7 +600,7 @@
                                     })]
                                 })
                             }),
-                            /*(0, o.jsx)("div", {
+                            (0, o.jsx)("div", {
                                 className: s().alts, children: (0, o.jsxs)("div", {
                                     className: s().photoShoot,
                                     children: [(0, o.jsxs)("div", {
@@ -629,8 +629,7 @@
                                         }), (0, o.jsx)("img", {className: s().photoShootChild, src: "./shoot8.jpg"})]
                                     })]
                                 })
-                            })*/
-
+                            })
                         ]
                     })]
             })
