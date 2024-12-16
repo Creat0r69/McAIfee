@@ -24,12 +24,161 @@
     <script src="_next/static/chunks/pages/index-55458fc639623016.js" defer="" crossorigin=""></script>
     <script src="_next/static/pBBLKsjazVEjY-dC2jElA/_buildManifest.js" defer="" crossorigin=""></script>
     <script src="_next/static/pBBLKsjazVEjY-dC2jElA/_ssgManifest.js" defer="" crossorigin=""></script>
+    <style>
+        /* Chat-style modal */
+        .chat-modal {
+            background-color: rgba(191, 64, 191, 0.3); /* Purple with low opacity */
+            position: fixed; /* Change from absolute to fixed */
+            bottom: 80px; /* Position above the button */
+            right: 20px; /* Aligned with the button */
+            display: none; /* Hidden by default */
+            border: 2px solid #BF40BF;
+            border-radius: 10px;
+            width: 300px;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            z-index: 2000;
+        }
+
+        /* Chat bubble tail */
+        .chat-modal::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            right: 20px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #BF40BF;
+        }
+
+        .chat-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #BF40BF;
+            margin-bottom: 10px;
+        }
+
+        .chat-header .close-chat {
+            background: none;
+            border: none;
+            color: #BF40BF;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .chat-messages {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .chat-messages p {
+            margin: 5px 0;
+            padding: 8px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        .chat-messages .user-message {
+            background-color: #BF40BF;
+            color: white;
+            text-align: left;
+        }
+
+        .chat-input {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .chat-input button {
+            background-color: #BF40BF;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .chat-input button:hover {
+            background-color: #a030a0;
+        }
+    </style>
 </head>
 <body>
+
 <div id="__next">
     <canvas id="c" width="2300" height="750"></canvas>
     <main class="Home_main__2uIek">
+
+
     </main>
+</div>
+<div style="position: fixed;top: 0;left: 0;display: flex;align-items: center;padding: 20px;width: 100%;z-index: 1000;">
+    <img style="height: 40px;margin-right: 5px;" src="./pfp1.png" alt="Logo">
+    <div style="font-size: 1.2em; font-family: monospace;color: #BF40BF;">John_</div>
+
+</div>
+<div style="position: fixed;top: 120px;left: 0;display: flex;align-items: center;padding: 10px;padding-left:40px;z-index: 999;width: 100%;">
+    <img style="height: 30px;margin-right: 15px;cursor: pointer;" src="./Tg.png" alt="X Logo"
+         onclick="window.open('https://twitter.com', '_blank')">
+</div>
+<div style="position: fixed;top: 180px;left: 0;display: flex;align-items: center;padding: 10px;padding-left:40px;z-index: 998;width: 100%;">
+    <img style="height: 30px;margin-right: 15px;cursor: pointer;" src="./x.png" alt="X Logo"
+         onclick="window.open('https://twitter.com', '_blank')">
+</div>
+<div style="position: fixed;top: 240px;left: 0;display: flex;align-items: center;padding: 10px;padding-left:40px;z-index: 997;width: 100%;">
+    <img style="height: 30px;margin-right: 15px;cursor: pointer;" src="./dex.png" alt="X Logo"
+         onclick="window.open('https://twitter.com', '_blank')">
+</div>
+<button style=" position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px; /* Space between icon and text */
+            background-color: rgba(191, 64, 191, 0.2); /* Less opaque purple */
+            color: #BF40BF; /* Text color */
+            border: 2px solid #BF40BF; /* Border color */
+            border-radius: 10px; /* Rounded corners */
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            z-index: 1000; /* Ensure it's on top */
+            text-decoration: none; /* Remove underline from links */
+            transition: all 0.3s ease;"
+        onclick="toggleChat()">Talk to John
+</button>
+<div class="chat-modal" id="chatModal">
+    <div class="chat-header">
+        Chat
+        <button class="close-chat" onclick="toggleChat()">&times;</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+        <p class="user-message">Hi,This feature is coming soon.</p>
+    </div>
+    <div class="chat-input">
+        <input type="text" id="chatInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
 </div>
 <script id="__NEXT_DATA__" type="application/json" crossorigin="">{
     "props": {
@@ -43,5 +192,33 @@
     "isFallback": false,
     "scriptLoader": []
 }</script>
+
+<script>
+    // Toggle chat modal visibility
+    function toggleChat() {
+        const chatModal = document.getElementById('chatModal');
+        if (chatModal.style.display === 'none' || chatModal.style.display === '') {
+            chatModal.style.display = 'block';
+        } else {
+            chatModal.style.display = 'none';
+        }
+    }
+
+    // Send a message in the chat
+    function sendMessage() {
+        const chatInput = document.getElementById('chatInput');
+        const chatMessages = document.getElementById('chatMessages');
+
+        if (chatInput.value.trim() !== '') {
+            const newMessage = document.createElement('p');
+            newMessage.classList.add('user-message');
+            newMessage.textContent = chatInput.value;
+            chatMessages.appendChild(newMessage);
+
+            chatInput.value = '';
+            chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the latest message
+        }
+    }
+</script>
 </body>
 </html>
