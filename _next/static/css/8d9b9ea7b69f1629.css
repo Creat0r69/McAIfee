@@ -17,7 +17,12 @@
     .row {
         flex-direction: column;
     }
+    .card {
+        flex: 1; /* Makes the cards evenly spaced */
+        max-width: 100%; /* Ensures cards don't exceed half the row width */
+    }
 }
+
 
 .Home_infos__KQuRm, .Home_main__2uIek {
     display: grid;
@@ -178,7 +183,6 @@
 }
 
 .Home_photoShootChild__olHmM {
-    height: 12vw;
     width: 10vw;
     margin: 10px;
     border-radius: 20px
