@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&amp;family=Inconsolata:wght@200..900&amp;family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;display=swap");
 
 .Home_main__2uIek {
-    height: 3100px;
+    height: 2000px;
     padding: 20px
+}
+.row {
+    display: flex;
+    gap: 16px; /* Adds spacing between cards */
+}
+
+.card {
+    flex: 1; /* Makes the cards evenly spaced */
+    max-width: 50%; /* Ensures cards don't exceed half the row width */
+}
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
 }
 
 .Home_infos__KQuRm, .Home_main__2uIek {
@@ -164,6 +178,7 @@
 }
 
 .Home_photoShootChild__olHmM {
+    height: 12vw;
     width: 10vw;
     margin: 10px;
     border-radius: 20px
