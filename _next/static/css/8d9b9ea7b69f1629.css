@@ -12,7 +12,9 @@
 .card {
     flex: 1; /* Makes the cards evenly spaced */
     max-width: 50%; /* Ensures cards don't exceed half the row width */
+
 }
+
 @media (max-width: 768px) {
     .row {
         flex-direction: column;

@@ -39,11 +39,13 @@ body {
 }
 
 .mac-terminal {
-    background-color: #000;
     padding: 20px;
     border-radius: 5px;
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.07); /* Light blue background */
+    border: 2px solid #000; /* Black border with a width of 2px */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
 }
 
 .header {
