@@ -105,7 +105,7 @@
                                 children: (0, o.jsx)("img", {className: s().actPFP, src: "./pfp.jpg"})
                             }), (0, o.jsx)("div", {
                                 className: "container", children: (0, o.jsxs)("div", {
-                                    className: "mac-terminal",
+                                    className: "",
                                     children: [(0, o.jsxs)("div", {
                                         className: "body",
                                         children: [(0, o.jsxs)("div", {
@@ -132,7 +132,7 @@
                                         (0, o.jsx)("div", {
                                             className: "card", // Card 1
                                             children: (0, o.jsxs)("div", {
-                                                className: "mac-terminal",
+                                                className: "mac-terminal1",
                                                 children: [(0, o.jsx)("div", {
                                                     className: "container", children: (0, o.jsxs)("div", {
                                                         className: "",
@@ -196,7 +196,7 @@
                                         (0, o.jsx)("div", {
                                             className: "card", // Card 2 (duplicate of Card 1)
                                             children: (0, o.jsxs)("div", {
-                                                className: "mac-terminal",
+                                                className: "mac-terminal1",
                                                 children: [
                                                     (0, o.jsxs)("div", {
                                                         className: "body",
@@ -270,7 +270,8 @@
                                         (0, o.jsx)("div", {
                                             className: "card", // Card 1
                                             children: (0, o.jsxs)("div", {
-                                                className: "mac-terminal",
+                                                className: "mac-terminal1" +
+                                                    "",
                                                 children: [(0, o.jsx)("div", {
                                                     className: "container", children: (0, o.jsxs)("div", {
                                                         className: "",
@@ -327,7 +328,7 @@
                                                                 children: [
                                                                     (0, o.jsx)("span", {
                                                                         className: "body__row-result",
-                                                                        children: "After John McAfee's death in 2021, his legacy in crypto and privacy advocacy lives on through our AI agent called \"Aifee,\" designed to emulate his distinctive personality on X, Telegram and more"
+                                                                        children: "The Aifee project transcends nostalgia, aiming to educate on McAfee's principles, engage communities in his philosophy, and preserve his legacy of promoting freedom and innovation in blockchain."
                                                                     }),
                                                                 ]
                                                             }),
@@ -339,7 +340,7 @@
                                         (0, o.jsx)("div", {
                                             className: "card", // Card 2 (duplicate of Card 1)
                                             children: (0, o.jsxs)("div", {
-                                                className: "mac-terminal",
+                                                className: "mac-terminal1",
                                                 children: [
                                                     (0, o.jsxs)("div", {
                                                         className: "body",

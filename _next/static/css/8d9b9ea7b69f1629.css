@@ -4,6 +4,10 @@
     height: 2000px;
     padding: 20px
 }
+.Idea_main__2uIek {
+    height: 1000px;
+    padding: 20px
+}
 .row {
     display: flex;
     gap: 16px; /* Adds spacing between cards */
