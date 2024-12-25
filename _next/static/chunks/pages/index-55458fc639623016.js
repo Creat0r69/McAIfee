@@ -408,7 +408,8 @@
                                         }), (0, o.jsx)("img", {
                                             className: s().photoShootChild,
                                             src: "./shoot7.jpg"
-                                        }), (0, o.jsx)("img", {className: s().photoShootChild, src: "./shoot8.jpg"})]
+                                        })
+                                        ]
                                     })]
                                 })
                             })
