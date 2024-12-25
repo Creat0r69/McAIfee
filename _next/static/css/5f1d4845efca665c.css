@@ -60,7 +60,6 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
     display: flex; /* Makes the card content flexible */
     flex-direction: column; /* Optional: ensures content flows vertically */
-    justify-content: space-between; /* Optional: adjusts spacing inside the card */
 }
 
 .header {

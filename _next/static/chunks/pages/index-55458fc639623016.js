@@ -163,12 +163,6 @@
                                                                             "      T:::::::::T       h:::::h     h:::::h e::::::::eeeeeeee       i::::::i d:::::::::::::::::d e::::::::eeeeeeee  a:::::aaaa::::::a \n" +
                                                                             "      T:::::::::T       h:::::h     h:::::h  ee:::::::::::::e       i::::::i  d:::::::::ddd::::d  ee:::::::::::::e   a::::::::::aa:::a\n" +
                                                                             "      TTTTTTTTTTT       hhhhhhh     hhhhhhh    eeeeeeeeeeeeee       iiiiiiii   ddddddddd   ddddd    eeeeeeeeeeeeee    aaaaaaaaaa  aaaa\n" +
-                                                                            "                                                                                                                                      \n" +
-                                                                            "                                                                                                                                      \n" +
-                                                                            "                                                                                                                                      \n" +
-                                                                            "                                                                                                                                      \n" +
-                                                                            "                                                                                                                                      \n" +
-                                                                            "                                                                                                                                      \n" +
                                                                             "                                                                                                                                      \n"
                                                                     }),
                                                                 ]
@@ -184,7 +178,7 @@
                                                                 children: [
                                                                     (0, o.jsx)("span", {
                                                                         className: "body__row-result",
-                                                                        children: "After John McAfee's death in 2021, his legacy in crypto and privacy advocacy lives on through our AI agent called \"Aifee,\" designed to emulate his distinctive personality on X, Telegram and more"
+                                                                        children: "After John McAfee's death in 2021, his legacy in crypto and privacy advocacy lives on through our AI agent called \"Aifee,\" designed to emulate his distinctive personality on X, Telegram and more."
                                                                     }),
                                                                 ]
                                                             }),
@@ -231,12 +225,6 @@
                                                                                         "      T:::::::::T       h:::::h     h:::::h e::::::::eeeeeeee             T:::::::::T       e::::::::eeeeeeee   c:::::::::::::::::c h:::::h     h:::::h\n" +
                                                                                         "      T:::::::::T       h:::::h     h:::::h  ee:::::::::::::e             T:::::::::T        ee:::::::::::::e    cc:::::::::::::::c h:::::h     h:::::h\n" +
                                                                                         "      TTTTTTTTTTT       hhhhhhh     hhhhhhh    eeeeeeeeeeeeee             TTTTTTTTTTT          eeeeeeeeeeeeee      cccccccccccccccc hhhhhhh     hhhhhhh\n" +
-                                                                                        "                                                                                                                                                       \n" +
-                                                                                        "                                                                                                                                                       \n" +
-                                                                                        "                                                                                                                                                       \n" +
-                                                                                        "                                                                                                                                                       \n" +
-                                                                                        "                                                                                                                                                       \n" +
-                                                                                        "                                                                                                                                                       \n" +
                                                                                         "                                                                                                                                                       \n"
                                                                                 }),
                                                                             ]
@@ -250,7 +238,7 @@
 
                                                                     (0, o.jsx)("span", {
                                                                         className: "body__row-result",
-                                                                        children: "We've fine-tuned a Llama 3.2 model with John McAfee's X posts, interviews, and books to create Aifee, an AI that mimics his unique style and thoughts. Aifee interacts on X, learning from users to evolve, keeping McAfee's legacy alive in the digital world."
+                                                                        children: "We've fine-tuned a Llama 3.2 model with John McAfee's X posts, interviews, and books to create Aifee, an AI that mimics his unique style and thoughts. Aifee interacts on X, keeping McAfee's legacy alive in the digital world."
                                                                     }),
                                                                 ]
                                                             }),
@@ -305,12 +293,6 @@
                                                                                     "      T:::::::::T       h:::::h     h:::::h e::::::::eeeeeeee                 V:::::V          i::::::is::::::::::::::s i::::::io:::::::::::::::o  n::::n    n::::n\n" +
                                                                                     "      T:::::::::T       h:::::h     h:::::h  ee:::::::::::::e                  V:::V           i::::::i s:::::::::::ss  i::::::i oo:::::::::::oo   n::::n    n::::n\n" +
                                                                                     "      TTTTTTTTTTT       hhhhhhh     hhhhhhh    eeeeeeeeeeeeee                   VVV            iiiiiiii  sssssssssss    iiiiiiii   ooooooooooo     nnnnnn    nnnnnn\n" +
-                                                                                    "                                                                                                                                                                   \n" +
-                                                                                    "                                                                                                                                                                   \n" +
-                                                                                    "                                                                                                                                                                   \n" +
-                                                                                    "                                                                                                                                                                   \n" +
-                                                                                    "                                                                                                                                                                   \n" +
-                                                                                    "                                                                                                                                                                   \n" +
                                                                                     "                                                                                                                                                                   \n"
                                                                             }),
                                                                         ]
@@ -375,13 +357,7 @@
                                                                                         "      T:::::::::T       h:::::h     h:::::h e::::::::eeeeeeee        u:::::::::::::::u      tt::::::::::::::ti::::::il::::::li::::::i      tt::::::::::::::t         y:::::y         \n" +
                                                                                         "      T:::::::::T       h:::::h     h:::::h  ee:::::::::::::e         uu::::::::uu:::u        tt:::::::::::tti::::::il::::::li::::::i        tt:::::::::::tt        y:::::y          \n" +
                                                                                         "      TTTTTTTTTTT       hhhhhhh     hhhhhhh    eeeeeeeeeeeeee           uuuuuuuu  uuuu          ttttttttttt  iiiiiiiilllllllliiiiiiii          ttttttttttt         y:::::y           \n" +
-                                                                                        "                                                                                                                                                                  y:::::y            \n" +
-                                                                                        "                                                                                                                                                                 y:::::y             \n" +
-                                                                                        "                                                                                                                                                                y:::::y              \n" +
-                                                                                        "                                                                                                                                                               y:::::y               \n" +
-                                                                                        "                                                                                                                                                              yyyyyyy                \n" +
-                                                                                        "                                                                                                                                                                                     \n" +
-                                                                                        "                                                                                                                                                                                     \n"
+                                                                                        "                                                                                                                                                                  y:::::y            \n"
                                                                                 }),
                                                                             ]
                                                                         })]
