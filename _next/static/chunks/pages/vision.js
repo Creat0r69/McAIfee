@@ -100,49 +100,48 @@
                             "                                                                                                                                                            \n"
                     }),*/ (0, o.jsxs)("main", {
                         className: s().main, children: [
-                             (0, o.jsx)("div", {
-                            className: "container", children: (0, o.jsxs)("div", {
-                                className: "",
-                                children: [(0, o.jsxs)("div", {
-                                    className: "body",
+                            (0, o.jsx)("div", {
+                                className: "container", children: (0, o.jsxs)("div", {
+                                    className: "",
                                     children: [(0, o.jsxs)("div", {
-                                        className: "body__row",
-                                        children: [
-                                            (0, o.jsx)("pre", {
-                                                id: "mainAscii",
-                                                className: s().ascii,
-                                                children: "\n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                        dddddddd                                      \n" +
-                                                    "TTTTTTTTTTTTTTTTTTTTTTThhhhhhh                                        iiii              d::::::d                                      \n" +
-                                                    "T:::::::::::::::::::::Th:::::h                                       i::::i             d::::::d                                      \n" +
-                                                    "T:::::::::::::::::::::Th:::::h                                        iiii              d::::::d                                      \n" +
-                                                    "T:::::TT:::::::TT:::::Th:::::h                                                          d:::::d                                       \n" +
-                                                    "TTTTTT  T:::::T  TTTTTT h::::h hhhhh           eeeeeeeeeeee         iiiiiii     ddddddddd:::::d     eeeeeeeeeeee      aaaaaaaaaaaaa   \n" +
-                                                    "        T:::::T         h::::hh:::::hhh      ee::::::::::::ee       i:::::i   dd::::::::::::::d   ee::::::::::::ee    a::::::::::::a  \n" +
-                                                    "        T:::::T         h::::::::::::::hh   e::::::eeeee:::::ee      i::::i  d::::::::::::::::d  e::::::eeeee:::::ee  aaaaaaaaa:::::a \n" +
-                                                    "        T:::::T         h:::::::hhh::::::h e::::::e     e:::::e      i::::i d:::::::ddddd:::::d e::::::e     e:::::e           a::::a \n" +
-                                                    "        T:::::T         h::::::h   h::::::he:::::::eeeee::::::e      i::::i d::::::d    d:::::d e:::::::eeeee::::::e    aaaaaaa:::::a \n" +
-                                                    "        T:::::T         h:::::h     h:::::he:::::::::::::::::e       i::::i d:::::d     d:::::d e:::::::::::::::::e   aa::::::::::::a \n" +
-                                                    "        T:::::T         h:::::h     h:::::he::::::eeeeeeeeeee        i::::i d:::::d     d:::::d e::::::eeeeeeeeeee   a::::aaaa::::::a \n" +
-                                                    "        T:::::T         h:::::h     h:::::he:::::::e                 i::::i d:::::d     d:::::d e:::::::e           a::::a    a:::::a \n" +
-                                                    "      TT:::::::TT       h:::::h     h:::::he::::::::e               i::::::id::::::ddddd::::::dde::::::::e          a::::a    a:::::a \n" +
-                                                    "      T:::::::::T       h:::::h     h:::::h e::::::::eeeeeeee       i::::::i d:::::::::::::::::d e::::::::eeeeeeee  a:::::aaaa::::::a \n" +
-                                                    "      T:::::::::T       h:::::h     h:::::h  ee:::::::::::::e       i::::::i  d:::::::::ddd::::d  ee:::::::::::::e   a::::::::::aa:::a\n" +
-                                                    "      TTTTTTTTTTT       hhhhhhh     hhhhhhh    eeeeeeeeeeeeee       iiiiiiii   ddddddddd   ddddd    eeeeeeeeeeeeee    aaaaaaaaaa  aaaa\n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                                                                      \n" +
-                                                    "                                                                                                                                      \n"
-                                            }),
-                                        ]
+                                        className: "body",
+                                        children: [(0, o.jsxs)("div", {
+                                            className: "body__row",
+                                            children: [
+                                                (0, o.jsx)("pre", {
+                                                    id: "mainAscii",
+                                                    className: s().ascii,
+                                                    children: "\n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "TTTTTTTTTTTTTTTTTTTTTTThhhhhhh                                      VVVVVVVV           VVVVVVVV  iiii                     iiii                                     \n" +
+                                                        "T:::::::::::::::::::::Th:::::h                                      V::::::V           V::::::V i::::i                   i::::i                                    \n" +
+                                                        "T:::::::::::::::::::::Th:::::h                                      V::::::V           V::::::V  iiii                     iiii                                     \n" +
+                                                        "T:::::TT:::::::TT:::::Th:::::h                                      V::::::V           V::::::V                                                                    \n" +
+                                                        "TTTTTT  T:::::T  TTTTTT h::::h hhhhh           eeeeeeeeeeee          V:::::V           V:::::V iiiiiii     ssssssssss   iiiiiii    ooooooooooo   nnnn  nnnnnnnn    \n" +
+                                                        "        T:::::T         h::::hh:::::hhh      ee::::::::::::ee         V:::::V         V:::::V  i:::::i   ss::::::::::s  i:::::i  oo:::::::::::oo n:::nn::::::::nn  \n" +
+                                                        "        T:::::T         h::::::::::::::hh   e::::::eeeee:::::ee        V:::::V       V:::::V    i::::i ss:::::::::::::s  i::::i o:::::::::::::::on::::::::::::::nn \n" +
+                                                        "        T:::::T         h:::::::hhh::::::h e::::::e     e:::::e         V:::::V     V:::::V     i::::i s::::::ssss:::::s i::::i o:::::ooooo:::::onn:::::::::::::::n\n" +
+                                                        "        T:::::T         h::::::h   h::::::he:::::::eeeee::::::e          V:::::V   V:::::V      i::::i  s:::::s  ssssss  i::::i o::::o     o::::o  n:::::nnnn:::::n\n" +
+                                                        "        T:::::T         h:::::h     h:::::he:::::::::::::::::e            V:::::V V:::::V       i::::i    s::::::s       i::::i o::::o     o::::o  n::::n    n::::n\n" +
+                                                        "        T:::::T         h:::::h     h:::::he::::::eeeeeeeeeee              V:::::V:::::V        i::::i       s::::::s    i::::i o::::o     o::::o  n::::n    n::::n\n" +
+                                                        "        T:::::T         h:::::h     h:::::he:::::::e                        V:::::::::V         i::::i ssssss   s:::::s  i::::i o::::o     o::::o  n::::n    n::::n\n" +
+                                                        "      TT:::::::TT       h:::::h     h:::::he::::::::e                        V:::::::V         i::::::is:::::ssss::::::si::::::io:::::ooooo:::::o  n::::n    n::::n\n" +
+                                                        "      T:::::::::T       h:::::h     h:::::h e::::::::eeeeeeee                 V:::::V          i::::::is::::::::::::::s i::::::io:::::::::::::::o  n::::n    n::::n\n" +
+                                                        "      T:::::::::T       h:::::h     h:::::h  ee:::::::::::::e                  V:::V           i::::::i s:::::::::::ss  i::::::i oo:::::::::::oo   n::::n    n::::n\n" +
+                                                        "      TTTTTTTTTTT       hhhhhhh     hhhhhhh    eeeeeeeeeeeeee                   VVV            iiiiiiii  sssssssssss    iiiiiiii   ooooooooooo     nnnnnn    nnnnnn\n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n" +
+                                                        "                                                                                                                                                                   \n"}),
+                                            ]
+                                        })]
                                     })]
-                                })]
-                            })
-                        }),
+                                })
+                            }),
                             (0, o.jsx)("div", {
                                 className: "container", children: (0, o.jsxs)("div", {
                                     className: "mac-terminal",
@@ -152,40 +151,22 @@
                                             className: "body__row",
                                             children: [(0, o.jsx)("span", {
                                                 className: "body__row-result",
-                                                children: "The crypto world lost one of its most vibrant figures when John McAfee passed away\n" +
-                                                    "under mysterious circumstances in 2021. Known as a maverick in the realms of\n" +
-                                                    "cybersecurity, cryptocurrency, and privacy advocacy, McAfee was not just a legend but a\n" +
-                                                    "beacon for decentralization, often challenging the status quo with his sharp wit and\n" +
-                                                    "profound insights. The void left by his absence has been felt keenly, leaving a\n" +
-                                                    "community of followers and believers in his philosophy longing for his guidance,\n" +
-                                                    "intelligence, and unique sense of humor.\n"
-                                            })]
-                                        }), (0, o.jsxs)("div", {
-                                            className: "body__row",
-                                            children: [(0, o.jsx)("span", {
-                                                className: "body__row-result",
-                                                children: "The nostalgia for McAfee's daily \"Coin of the Day\" posts on X, his audacious challenges\n" +
-                                                    "to conventional thinking, and his relentless advocacy for privacy and freedom in the\n" +
-                                                    "digital age inspired us to pursue an unprecedented endeavor: to resurrect John\n" +
-                                                    "McAfee on X through AI."
-                                            })]
-                                        }), (0, o.jsxs)("div", {
-                                            className: "body__row",
-                                            children: [(0, o.jsx)("span", {
-                                                className: "body__row-result",
-                                                children: "Leveraging cutting-edge AI technology, we have embarked on a project to:"
+                                                children: "Our vision extends beyond mere nostalgia; it's about keeping the spirit of McAfee's\n" +
+                                                    "advocacy alive:\n"
                                             })]
                                         }), (0, o.jsxs)("div", {
                                             className: "body__row",
                                             children: [(0, o.jsx)("span", {
                                                 className: "body__row-folder",
-                                                children: "\xa0\xa0\xa0 Clone John McAfee's Mindset and Tone:"
+                                                children: "\xa0\xa0\xa0 Educational Outreach:"
                                             }), (0, o.jsx)("span", {children: "\xa0 "})]
                                         }), (0, o.jsxs)("div", {
                                             className: "body__row",
                                             children: [(0, o.jsx)("span", {children: "\xa0 "}), (0, o.jsx)("span",
                                                 {
-                                                    children: "\xa0\xa0\xa0 By training an AI model on a comprehensive dataset that includes McAfee’s X posts, interviews, writings, and public statements, we've aimed to encapsulate his unique blend of humor,skepticism, and visionary thinking."
+                                                    children: "\xa0\xa0\xa0  We aim for Aifee to serve as an educational tool,\n" +
+                                                        "spreading McAfee’s teachings on privacy, cryptocurrency, and digital sovereignty\n" +
+                                                        "to new generations.\n"
 
                                                 })]
                                         }),
@@ -193,58 +174,48 @@
                                                 className: "body__row",
                                                 children: [(0, o.jsx)("span", {
                                                     className: "body__row-folder",
-                                                    children: "\xa0\xa0\xa0 Replicate His Philosophical Stance:"
+                                                    children: "\xa0\xa0\xa0 Community Engagement:"
                                                 }), (0, o.jsx)("span", {children: "\xa0 "})]
                                             }),
                                             (0, o.jsxs)("div", {
                                                 className: "body__row",
                                                 children: [(0, o.jsx)("span", {children: "\xa0 "}), (0, o.jsx)("span",
                                                     {
-                                                        children: "\xa0\xa0\xa0 Our AI, which we've affectionately named\n" +
-                                                            "Aifee, is designed to mirror McAfee’s strong advocacy for privacy, his critical\n" +
-                                                            "views on government surveillance, and his critique of Big Tech's influence. This\n" +
-                                                            "includes integrating his philosophical beliefs about freedom, the role of\n" +
-                                                            "technology in society, and his sometimes controversial takes on life's larger\n" +
-                                                            "questions.\n"
+                                                        children: "\xa0\xa0\xa0 By allowing users to interact with Aifee, we're\n" +
+                                                            "fostering a community where McAfee's ideas continue to evolve, influenced by\n" +
+                                                            "current events and user feedback.\n"
                                                     })]
                                             }),
                                             (0, o.jsxs)("div", {
                                                 className: "body__row",
                                                 children: [(0, o.jsx)("span", {
                                                     className: "body__row-folder",
-                                                    children: "\xa0\xa0\xa0 Capture His Political Beliefs:"
+                                                    children: "\xa0\xa0\xa0 Legacy Preservation:"
                                                 }), (0, o.jsx)("span", {children: "\xa0 "})]
                                             }),
                                             (0, o.jsxs)("div", {
                                                 className: "body__row",
                                                 children: [(0, o.jsx)("span", {children: "\xa0 "}), (0, o.jsx)("span",
                                                     {
-                                                        children: "\xa0\xa0\xa0 Aifee also reflects McAfee’s political ideals, his\n" +
-                                                            "libertarian views, and his push for a world where individuals control their data and\n" +
-                                                            "digital identity, free from oppressive oversight."
+                                                        children: "\xa0\xa0\xa0 This project isn't just about bringing back a personality; it's\n" +
+                                                            "about preserving a legacy that champions freedom, challenges authority, and\n" +
+                                                            "encourages innovation in the blockchain space.\n"
                                                     })]
                                             }),
                                             (0, o.jsxs)("div", {
                                                 className: "body__row",
-                                                children: [(0, o.jsx)("span", {
-                                                    className: "body__row-folder",
-                                                    children: "\xa0\xa0\xa0 Dynamic Interaction:"
-                                                }), (0, o.jsx)("span", {children: "\xa0 "})]
-                                            }),
-                                            (0, o.jsxs)("div", {
-                                                className: "body__row",
                                                 children: [(0, o.jsx)("span", {children: "\xa0 "}), (0, o.jsx)("span",
                                                     {
-                                                        children: "\xa0\xa0\xa0 Beyond mere replication, we intend for Aifee to engage\n" +
-                                                            "with the community in real-time on X, offering insights, predictions, and even his\n" +
-                                                            "famous coin endorsements, all while maintaining the essence of McAfee's\n" +
-                                                            "provocative and engaging style."
+                                                        children: "Through this AI resurrection, we hope to not only fill the void left by McAfee's departure\n" +
+                                                            "but also to inspire a new wave of thinkers, innovators, and privacy advocates in his\n" +
+                                                            "image, ensuring his influence continues to shape the future of technology and human\n" +
+                                                            "liberty."
                                                     })]
                                             })
                                         ]
                                     })]
                                 })
-                            }),
+                            })
                         ]
                     })]
             })
